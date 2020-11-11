@@ -54,7 +54,7 @@ const App = ()  => {
         }
       )
     }
-    checkIsWinner()
+    checkIsWinner();
   }
 
   const reloadGame = () => {
@@ -123,7 +123,7 @@ const App = ()  => {
       itemArray[7] !== "empty" &&
       itemArray[8] !== "empty"
     ) {
-      setWinMessage("Draw");
+      setWinMessage("It's a draw");
     }
   }
 
